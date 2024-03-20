@@ -1,4 +1,4 @@
 language: ruby
-rvm: 2.2
+rvm: 2.3
 before_script: gem install awesome_bot
 script: awesome_bot README.md --allow-redirect --allow-dupe --allow 429 -w .amazonaws.com,news.ycombinator.com,swagger.io
