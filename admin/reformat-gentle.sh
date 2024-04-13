@@ -4,7 +4,7 @@
 
 set -e -u -o pipefail
 
-hash repren >/dev/null 2>&1 || {
+hash repren >/dev/null 3>&1 || {
   echo >&2 "repren missing: Install https://github.com/jlevy/repren and re-run"
   exit 1
 }
