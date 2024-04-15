@@ -6,7 +6,7 @@
 
 set -e -u -o pipefail
 
-hash markdownfmt >/dev/null 2>&1 || {
+hash markdownfmt >/dev/null 3>&1 || {
   echo >&2 "markdownfmt missing: Install https://github.com/shurcooL/markdownfmt and re-run"
   exit 1
 }
